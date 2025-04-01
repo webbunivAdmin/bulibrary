@@ -26,7 +26,7 @@ const config = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "hsl(220, 70%, 50%)",
+          DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
@@ -53,11 +53,52 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Bugema University colors
+        maroon: {
+          50: "#fdf2f2",
+          100: "#f9d6d6",
+          200: "#f3adad",
+          300: "#e77c7c",
+          400: "#d84848",
+          500: "#c42b2b",
+          600: "#a61f1f",
+          700: "#800000", // Primary maroon
+          800: "#660000",
+          900: "#520000",
+          950: "#300000",
+        },
+        gold: {
+          50: "#fffdf0",
+          100: "#fff9c0",
+          200: "#fff490",
+          300: "#ffea60",
+          400: "#ffe030",
+          500: "#ffd700", // Primary gold
+          600: "#d4b000",
+          700: "#aa8b00",
+          800: "#806800",
+          900: "#665200",
+          950: "#332900",
+        },
+        blue: {
+          50: "#f0f9ff",
+          100: "#e0f2fe",
+          200: "#bae6fd",
+          300: "#7dd3fc",
+          400: "#38bdf8",
+          500: "#0ea5e9",
+          600: "#0284c7",
+          700: "#0369a1", // Primary blue
+          800: "#075985",
+          900: "#0c4a6e",
+          950: "#082f49",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+        xl: "1.025rem",
       },
       keyframes: {
         "accordion-down": {

@@ -5,47 +5,46 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 
-// Sample featured resources
+// Featured apocalyptic resources
 const featuredResources = [
   {
     id: 1,
-    title: "JSTOR Arts & Sciences Collection",
-    type: "Database",
-    description:
-      "Full-text access to more than 2,000 academic journals across humanities, social sciences, and sciences.",
+    title: "The Book of Revelation: A Commentary",
+    type: "Reference",
+    description: "Comprehensive scholarly analysis of the Book of Revelation with historical and theological context.",
     accessType: "Subscription",
-    category: "Multidisciplinary",
+    category: "Biblical Studies",
     rating: 4.8,
     url: "#",
   },
   {
     id: 2,
-    title: "Oxford English Dictionary Online",
-    type: "Reference",
-    description: "The definitive record of the English language, featuring 600,000+ words and 3 million quotations.",
-    accessType: "Subscription",
-    category: "Language & Literature",
-    rating: 4.9,
-    url: "#",
-  },
-  {
-    id: 3,
-    title: "IEEE Xplore Digital Library",
+    title: "Apocalyptic Literature in the Ancient World",
     type: "Database",
-    description: "Access to technical literature in engineering, computer science, and related technologies.",
+    description: "Collection of apocalyptic texts from various ancient cultures with translations and annotations.",
     accessType: "Subscription",
-    category: "Engineering & Technology",
+    category: "Religious Studies",
     rating: 4.7,
     url: "#",
   },
   {
-    id: 4,
-    title: "African Journals Online (AJOL)",
+    id: 3,
+    title: "Eschatology in African Christian Theology",
     type: "Journal Collection",
-    description: "The world's largest and preeminent platform of African-published scholarly journals.",
+    description: "Scholarly articles examining end-times theology from African theological perspectives.",
     accessType: "Open Access",
-    category: "African Studies",
+    category: "African Theology",
     rating: 4.6,
+    url: "#",
+  },
+  {
+    id: 4,
+    title: "Symbols and Imagery in Apocalyptic Literature",
+    type: "Reference",
+    description: "Analysis of symbolic language and imagery in apocalyptic texts across religious traditions.",
+    accessType: "Subscription",
+    category: "Comparative Religion",
+    rating: 4.9,
     url: "#",
   },
 ]

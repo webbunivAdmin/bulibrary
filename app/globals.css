@@ -1,3 +1,6 @@
+
+/* @tailwind utilities; */
+
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -44,79 +47,202 @@
 }
 
 :root {
+  /* Base radius for rounded corners */
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+
+  /* Bugema University Official Colors */
+  /* Main colors: Blue (#0369a1), Maroon (#800000) and Gold (#FFD700) */
+
+  /* Base colors */
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+
+  /* Card colors */
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+
+  /* Popover colors */
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 47% 11%;
+
+  /* Primary color - Blue */
+  --primary: 201 97% 32%;
+  --primary-foreground: 0 0% 100%;
+
+  /* Secondary color - Gold */
+  --secondary: 50 100% 50%;
+  --secondary-foreground: 222 47% 11%;
+
+  /* Muted colors */
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+
+  /* Accent colors - Maroon */
+  --accent: 0 100% 25%;
+  --accent-foreground: 0 0% 100%;
+
+  /* Destructive colors */
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  /* Border, input, and ring colors */
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: 201 97% 32%;
+
+  /* Chart colors */
+  --chart-1: 201 97% 32%; /* Blue */
+  --chart-2: 50 100% 50%; /* Gold */
+  --chart-3: 0 100% 25%; /* Maroon */
+  --chart-4: 201 90% 45%; /* Lighter blue */
+  --chart-5: 45 100% 60%; /* Lighter gold */
+
+  /* Sidebar colors */
+  --sidebar: 0 0% 100%;
+  --sidebar-foreground: 222 47% 11%;
+  --sidebar-primary: 201 97% 32%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 210 40% 96.1%;
+  --sidebar-accent-foreground: 201 97% 32%;
+  --sidebar-border: 214.3 31.8% 91.4%;
+  --sidebar-ring: 201 97% 32%;
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  /* Dark mode colors */
+  --background: 222 47% 11%;
+  --foreground: 210 40% 98%;
+
+  /* Card colors */
+  --card: 222 47% 15%;
+  --card-foreground: 210 40% 98%;
+
+  /* Popover colors */
+  --popover: 222 47% 15%;
+  --popover-foreground: 210 40% 98%;
+
+  /* Primary color - Lighter Blue for dark mode */
+  --primary: 201 90% 40%;
+  --primary-foreground: 0 0% 100%;
+
+  /* Secondary color - Darker Gold for dark mode */
+  --secondary: 50 80% 45%;
+  --secondary-foreground: 222 47% 11%;
+
+  /* Muted colors */
+  --muted: 217.2 32.6% 17.5%;
+  --muted-foreground: 215 20.2% 65.1%;
+
+  /* Accent colors - Lighter Maroon */
+  --accent: 0 70% 40%;
+  --accent-foreground: 0 0% 100%;
+
+  /* Destructive colors */
+  --destructive: 0 70% 45%;
+  --destructive-foreground: 0 0% 100%;
+
+  /* Border, input, and ring colors */
+  --border: 217.2 32.6% 17.5%;
+  --input: 217.2 32.6% 17.5%;
+  --ring: 201 90% 40%;
+
+  /* Chart colors */
+  --chart-1: 201 90% 40%; /* Lighter blue */
+  --chart-2: 50 80% 45%; /* Darker gold */
+  --chart-3: 0 70% 40%; /* Lighter maroon */
+  --chart-4: 201 80% 50%; /* Medium blue */
+  --chart-5: 45 70% 55%; /* Medium gold */
+
+  /* Sidebar colors */
+  --sidebar: 222 47% 15%;
+  --sidebar-foreground: 210 40% 98%;
+  --sidebar-primary: 201 90% 40%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 217.2 32.6% 17.5%;
+  --sidebar-accent-foreground: 210 40% 98%;
+  --sidebar-border: 217.2 32.6% 17.5%;
+  --sidebar-ring: 201 90% 40%;
 }
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
   }
 }
+
+/* Custom styles for the library website */
+.hero-pattern {
+  @apply bg-gray-50 dark:bg-gray-900;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%230369a1' fill-opacity='0.15'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.dark .hero-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2338bdf8' fill-opacity='0.2'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-gray-800 rounded;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-blue-700/70 dark:bg-blue-600/70 rounded;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-blue-700/90 dark:bg-blue-600/90;
+}
+
+/* Transitions for theme switching */
+.transition-colors,
+.bg-background,
+.bg-card,
+.bg-primary,
+.bg-secondary,
+.bg-muted,
+.bg-accent,
+.text-foreground,
+.text-primary,
+.text-secondary,
+.text-muted-foreground,
+.text-accent-foreground,
+.border,
+.border-b,
+.border-t,
+.border-l,
+.border-r {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+@layer components {
+  /* Blue button */
+  .btn-blue {
+    @apply bg-blue-700 text-white hover:bg-blue-800 dark:bg-blue-600 dark:hover:bg-blue-700;
+  }
+
+  /* Gold button */
+
+
+
+
+  /* Card with blue highlight */
+  .card-highlight {
+    @apply border-l-4 border-l-blue-700 dark:border-l-blue-600 transition-all hover:-translate-y-0.5 hover:shadow-md;
+  }
+
+  /* Card with maroon highlight */
+
+  /* Navigation active state */
+ 
+}
+
