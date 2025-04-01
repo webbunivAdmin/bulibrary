@@ -221,7 +221,7 @@ export default function Home() {
                 variant="link"
                 className="p-0 h-auto text-maroon-700 dark:text-maroon-500 flex items-center gap-1"
               >
-                  <Link href="">
+                  <Link href="https://buir.bugemauniv.ac.ug/">
                     Browse Journals <ArrowRight className="h-3 w-3 cursor-pointer" />
                   </Link>
               </Button>
@@ -513,26 +513,6 @@ export default function Home() {
               <h3 className="text-lg font-bold mb-4">About the Library</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="/about" className="hover:underline">
-                    About Us
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/staff" className="hover:underline">
-                    Library Staff
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/mission" className="hover:underline">
-                    Mission & Vision
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/history" className="hover:underline">
-                    History
-                  </Link>
-                </li>
-                <li>
                   <Link href="/policies" className="hover:underline">
                     Policies & Guidelines
                   </Link>
@@ -543,27 +523,7 @@ export default function Home() {
               <h3 className="text-lg font-bold mb-4">Services</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="/services/borrowing" className="hover:underline">
-                    Borrowing & Returns
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services/research" className="hover:underline">
-                    Research Assistance
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services/interlibrary" className="hover:underline">
-                    Interlibrary Loan
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services/printing" className="hover:underline">
-                    Printing & Copying
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services/training" className="hover:underline">
+                  <Link href="#" className="hover:underline">
                     Information Literacy
                   </Link>
                 </li>
@@ -578,23 +538,8 @@ export default function Home() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/resources/databases" className="hover:underline">
-                    Databases
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/resources/journals" className="hover:underline">
+                  <Link href="https://buir.bugemauniv.ac.ug/" className="hover:underline">
                     E-Journals
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/resources/theses" className="hover:underline">
-                    Theses & Dissertations
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/resources/archives" className="hover:underline">
-                    Archives
                   </Link>
                 </li>
               </ul>
