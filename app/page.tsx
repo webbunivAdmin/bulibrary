@@ -116,24 +116,7 @@ export default function Home() {
               >
                 Home
               </Link>
-              <Link href="/about" className="px-4 py-3 font-medium hover:bg-blue-600 dark:hover:bg-blue-700">
-                About
-              </Link>
-              <Link href="/services" className="px-4 py-3 font-medium hover:bg-blue-600 dark:hover:bg-blue-700">
-                Services
-              </Link>
-              <Link href="/resources" className="px-4 py-3 font-medium hover:bg-blue-600 dark:hover:bg-blue-700">
-                Resources
-              </Link>
-              <Link href="/research" className="px-4 py-3 font-medium hover:bg-blue-600 dark:hover:bg-blue-700">
-                Research
-              </Link>
-              <Link href="/e-resources" className="px-4 py-3 font-medium hover:bg-blue-600 dark:hover:bg-blue-700">
-                E-Resources
-              </Link>
-              <Link href="/contact" className="px-4 py-3 font-medium hover:bg-blue-600 dark:hover:bg-blue-700">
-                Contact
-              </Link>
+
             </nav>
             <div className="hidden md:flex items-center gap-4">
               <Link
