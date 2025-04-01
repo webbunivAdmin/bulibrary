@@ -197,7 +197,9 @@ export default function Home() {
                 Search our comprehensive catalog of apocalyptic literature, commentaries, and scholarly resources.
               </p>
               <Button variant="link" className="p-0 h-auto text-blue-700 dark:text-blue-500 flex items-center gap-1">
-                Access Catalog <ArrowRight className="h-3 w-3" />
+                <Link href="https://koha.bugemauniv.ac.ug/">
+                  Access Catalog <ArrowRight className="h-3 w-3" />
+                </Link>
               </Button>
             </CardContent>
           </Card>
@@ -206,7 +208,9 @@ export default function Home() {
             <CardHeader className="pb-2">
               <CardTitle className="text-lg flex items-center gap-2">
                 <GraduationCap className="h-5 w-5 text-maroon-700 dark:text-maroon-500" />
-                Academic Journals
+                  <Link href="">
+                    Academic Journals
+                  </Link>
               </CardTitle>
             </CardHeader>
             <CardContent>
@@ -217,7 +221,9 @@ export default function Home() {
                 variant="link"
                 className="p-0 h-auto text-maroon-700 dark:text-maroon-500 flex items-center gap-1"
               >
-                Browse Journals <ArrowRight className="h-3 w-3" />
+                  <Link href="">
+                    Browse Journals <ArrowRight className="h-3 w-3" />
+                  </Link>
               </Button>
             </CardContent>
           </Card>
@@ -235,6 +241,7 @@ export default function Home() {
               </p>
               <Button variant="link" className="p-0 h-auto text-gold-700 dark:text-gold-500 flex items-center gap-1">
                 Make Reservation <ArrowRight className="h-3 w-3" />
+                
               </Button>
             </CardContent>
           </Card>
@@ -251,7 +258,10 @@ export default function Home() {
                 Stay informed about new acquisitions, events, workshops, and library announcements.
               </p>
               <Button variant="link" className="p-0 h-auto text-blue-700 dark:text-blue-500 flex items-center gap-1">
-                View Updates <ArrowRight className="h-3 w-3" />
+                
+                  <Link href="">
+                    View Updates <ArrowRight className="h-3 w-3" />
+                  </Link>
               </Button>
             </CardContent>
           </Card>
