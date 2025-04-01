@@ -198,7 +198,7 @@ export default function Home() {
               </p>
               <Button variant="link" className="p-0 h-auto text-blue-700 dark:text-blue-500 flex items-center gap-1">
                 <Link href="https://koha.bugemauniv.ac.ug/">
-                  Access Catalog <ArrowRight className="h-3 w-3" />
+                  Access Catalog <ArrowRight className="h-3 w-3 cursor-pointer" />
                 </Link>
               </Button>
             </CardContent>
@@ -222,7 +222,7 @@ export default function Home() {
                 className="p-0 h-auto text-maroon-700 dark:text-maroon-500 flex items-center gap-1"
               >
                   <Link href="">
-                    Browse Journals <ArrowRight className="h-3 w-3" />
+                    Browse Journals <ArrowRight className="h-3 w-3 cursor-pointer" />
                   </Link>
               </Button>
             </CardContent>
@@ -240,8 +240,7 @@ export default function Home() {
                 Reserve study rooms, multimedia labs, or discussion spaces for your theological research.
               </p>
               <Button variant="link" className="p-0 h-auto text-gold-700 dark:text-gold-500 flex items-center gap-1">
-                Make Reservation <ArrowRight className="h-3 w-3" />
-                
+                Make Reservation <ArrowRight className="h-3 w-3 cursor-pointer" />
               </Button>
             </CardContent>
           </Card>
@@ -260,7 +259,7 @@ export default function Home() {
               <Button variant="link" className="p-0 h-auto text-blue-700 dark:text-blue-500 flex items-center gap-1">
                 
                   <Link href="">
-                    View Updates <ArrowRight className="h-3 w-3" />
+                    View Updates <ArrowRight className="h-3 w-3 cursor-pointer" />
                   </Link>
               </Button>
             </CardContent>
